@@ -1,0 +1,114 @@
+html {
+    background-color: dimgray;
+    padding: 0em 1em;
+}
+body {
+    background-color: #FFF;
+    font-family: 'Lato', sans-serif;
+    margin: 1em auto;
+    max-width: 50em;
+    height: 50em;
+}
+#left-section {
+    width: 35%;
+    height: 100%;
+    float: left;
+    color: #FFF;
+    background-color: darksalmon;
+    text-align: center;
+
+}
+#left-section .section {
+    margin-top: 35%;
+    padding: 1em;
+}
+img {
+    border-radius: 50px;
+    width: 150px;
+    height: 150px;
+    box-shadow: 5px 10px 18px #888888;
+    opacity: 0.80;
+    background-color: rgb(243, 241, 241);
+    
+} 
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+}
+.DoB {
+    text-decoration:  underline; 
+}
+.intro {
+    margin-bottom: 20px;
+}
+.section hr {
+    border:0px;
+    display: block;
+    width: 6em;
+    height: 2px;
+    border-top: 2px solid;
+    margin-top:50px;
+}
+#contact .info {
+    float: left;
+    margin: 10px;
+}
+
+#contact {
+    margin-top: 50px;
+}
+#contact a {
+    color: inherit;
+}
+#right-section {
+    float: right;
+    width: 65%;
+    height: 100%;
+}
+#right-section {
+    margin: 0 0 30px 0;
+}
+.fa {
+    margin-right: 15px;
+}
+.container {
+    padding: 2em;
+    height: 92%;
+    overflow-y: scroll;
+    background-color: rgb(243, 241, 241);
+}
+.container .title {
+    color: darksalmon;
+    font-size: 1.3em;
+    font-variant: small-caps;
+    letter-spacing: 0.1em;
+    font-weight: bold;
+    border-bottom: 2px solid rgb(196, 193, 193);
+}
+h2 {
+    font-size: 1em;
+}
+h3 {
+    font-size: 15px;
+    font-weight: 500;
+}
+.container .content {
+    font-weight: 200;
+}
+.container .content p {
+    font-size: 15px;
+    text-decoration: underline;
+}
+.container .content ul {
+    opacity: 0.75;
+}
+#right-section .container .section img {
+    width: 57px;
+    height: 57px;
+    border-radius: 10px;
+    margin: 13px;
+    margin-top: 20px;
+    box-shadow: 5px 10px 18px #888888;
+    opacity: 0.75;
+}
